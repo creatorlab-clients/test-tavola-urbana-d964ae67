@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>TEST_Tavola Urbana | Cozinha de estação, no coração de São Paulo.</title>
+  <meta name="description" content="Bistro contemporâneo em São Paulo. Cozinha de estação com massa fresca diária e ingredientes locais. Reserve sua mesa.">
+
+  <!-- OpenGraph -->
+  <meta property="og:title" content="TEST_Tavola Urbana | Cozinha de estação, no coração de São Paulo.">
+  <meta property="og:description" content="Bistro contemporâneo em São Paulo. Cozinha de estação com massa fresca diária e ingredientes locais. Reserve sua mesa.">
+  <meta property="og:image" content="og-placeholder.jpg">
+  <meta property="og:type" content="restaurant.restaurant">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Google Fonts: Fraunces (heading) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Schema.org Restaurant -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "TEST_Tavola Urbana",
+    "image": "og-placeholder.jpg",
+    "telephone": "+",
+    "servesCuisine": "Bistro contemporâneo",
+    "priceRange": "$$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "",
+      "addressLocality": "São Paulo",
+      "postalCode": "05433-010 — SP",
+      "addressCountry": "BR"
+    },
+    "url": "https://tavolaurbana.com.br"
+  }
+  </script>
+<script>window.__imgFallback=function(img,label){img.onerror=null;img.alt=label||'';img.style.cssText='background:#e5e7eb;min-height:40px';img.src='data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 viewBox%3D%220 0 1 1%22%3E%3C%2Fsvg%3E';};</script>
+</head>
+<body>
+
+  <!-- ============================================ -->
+  <!-- NAVBAR -->
+  <!-- ============================================ -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#top" class="brand">
+        <span class="brand-name">TEST_Tavola Urbana</span>
+      </a>
+      <nav class="nav-links" aria-label="Navegacao principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#menu">Cardapio</a>
+        <a href="#ambiente">Ambiente</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a href="https://wa.me/?text=Olá! Gostaria de reservar uma mesa no Tavola Urbana." class="cta-primary cta-primary--compact" aria-label="Reservar via WhatsApp">
+        Reserve sua mesa
+      </a>
+    </div>
+  </header>
+
+  <!-- ============================================ -->
+  <!-- 1. HERO -->
+  <!-- ============================================ -->
+  <section class="hero" id="top">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1 class="hero-title fade-up">TEST_Tavola Urbana</h1>
+        <p class="hero-tagline fade-up fade-up-delay-1"><span id="tw-hero" class="tw-words" data-words='["urbano","sabor","encontro","contemporâneo","praça"]'>Cozinha de estação, no coração de São Paulo.</span></p>
+        <p class="hero-signature fade-up fade-up-delay-2">Tagliarini de tinta de lula com vieiras</p>
+        <div class="hero-ctas fade-up fade-up-delay-3">
+          <a href="https://wa.me/?text=Olá! Gostaria de reservar uma mesa no Tavola Urbana." class="cta-primary">
+            Reserve sua mesa
+          </a>
+          <a href="#menu" class="cta-secondary">
+            Ver o menu
+          </a>
+        </div>
+      </div>
+      <figure class="hero-image img-fallback fade-up fade-up-delay-2">
+        <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/ristoranti/hero/ristoranti-hero-10.webp" alt="Prato de massa fresca artesanal servido no Tavola Urbana" width="1600" height="900" onerror="window.__imgFallback(this,'imagem em breve')">
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- 2. SCROLL ANIMATION — food-fresh -->
+  <!-- scrollAnimationId: food-fresh -->
+  <!-- ============================================ -->
+  <section class="scroll-animation" id="scroll-anim" aria-label="Sequencia cinematografica: molho caindo sobre a massa fresca">
+    <div class="scroll-anim-pin">
+      <canvas id="scroll-canvas" aria-hidden="true"></canvas>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- 3. SOBRE / CHI SIAMO -->
+  <!-- ============================================ -->
+  <section class="about" id="sobre">
+    <div class="container about-grid">
+      <figure class="about-image img-fallback fade-up">
+        <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/ristoranti/ambiente/ristoranti-ambiente-12.webp" alt="Interior do Tavola Urbana com cozinha aberta e mesas de madeira" loading="lazy" width="1200" height="800" onerror="window.__imgFallback(this,'imagem em breve')">
+      </figure>
+      <div class="about-text">
+        <span class="eyebrow fade-up">Sobre nos</span>
+        <h2 class="section-title reveal-wrapper" id="reveal-about"><span class="reveal-line"><span class="reveal-text">Bistro contemporâneo</span></span></h2>
+        <p class="about-body fade-up fade-up-delay-2">Nossa cozinha muda com a estação. Trabalhamos com produtores locais, compramos ingredientes frescos duas vezes por semana e preparamos a massa artesanal todos os dias. O cardápio é enxuto: cada prato reflete o que está no melhor momento.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- 4. MENU DO MOMENTO — stagger cards -->
+  <!-- ============================================ -->
+  <section class="menu" id="menu">
+    <div class="container">
+      <header class="section-header">
+        <span class="eyebrow fade-up">Cardapio</span>
+        <h2 class="section-title reveal-wrapper" id="reveal-menu"><span class="reveal-line"><span class="reveal-text">Menu do momento</span></span></h2>
+      </header>
+
+      <div class="menu-grid">
+        <article class="menu-card stagger-card tilt-soft" data-stagger="0">
+          <div class="menu-card-body">
+            <header class="menu-card-head">
+              <h3 class="menu-card-title">Burrata com tomate confit</h3>
+              <span class="menu-card-price">R$ 42</span>
+            </header>
+            <p class="menu-card-desc">Burrata fresca, tomate confit no azeite com manjericão e flor de sal sobre focaccia da casa.</p>
+          </div>
+        </article>
+        <article class="menu-card stagger-card tilt-soft" data-stagger="1">
+          <div class="menu-card-body">
+            <header class="menu-card-head">
+              <h3 class="menu-card-title">Tagliarini de tinta de lula</h3>
+              <span class="menu-card-price">R$ 76</span>
+            </header>
+            <p class="menu-card-desc">Massa fresca com tinta de lula, vieiras grelhadas, limão-siciliano e azeite de ervas finas.</p>
+          </div>
+        </article>
+        <article class="menu-card stagger-card tilt-soft" data-stagger="2">
+          <div class="menu-card-body">
+            <header class="menu-card-head">
+              <h3 class="menu-card-title">Risoto de cogumelos com trufa</h3>
+              <span class="menu-card-price">R$ 84</span>
+            </header>
+            <p class="menu-card-desc">Arroz arborio, mix de cogumelos frescos, creme de parmesão 36 meses e lascas de trufa negra.</p>
+          </div>
+        </article>
+        <article class="menu-card stagger-card tilt-soft" data-stagger="3">
+          <div class="menu-card-body">
+            <header class="menu-card-head">
+              <h3 class="menu-card-title">Polvo grelhado</h3>
+              <span class="menu-card-price">R$ 86</span>
+            </header>
+            <p class="menu-card-desc">Polvo confitado e finalizado na brasa, purê de batata-doce defumada e chimichurri de coentro.</p>
+          </div>
+        </article>
+        <article class="menu-card stagger-card tilt-soft" data-stagger="4">
+          <div class="menu-card-body">
+            <header class="menu-card-head">
+              <h3 class="menu-card-title">Panna cotta de baunilha</h3>
+              <span class="menu-card-price">R$ 28</span>
+            </header>
+            <p class="menu-card-desc">Panna cotta de baunilha com coulis de frutas vermelhas da estação e crumble de amêndoas.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- 5. AMBIENTE — galleria -->
+  <!-- ============================================ -->
+  <section class="ambient" id="ambiente">
+    <div class="container">
+      <header class="section-header">
+        <span class="eyebrow fade-up">Ambiente</span>
+        <h2 class="section-title reveal-wrapper" id="reveal-ambient"><span class="reveal-line"><span class="reveal-text">Nosso espaco</span></span></h2>
+      </header>
+
+      <div class="ambient-grid">
+        <figure class="ambient-tile img-fallback card-hover-lift tilt-soft" data-stagger="0">
+          <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/ristoranti/ambiente/ristoranti-ambiente-10.webp" alt="Salão principal do Tavola Urbana com mesas de madeira e iluminação quente" loading="lazy" width="1200" height="800" onerror="window.__imgFallback(this,'imagem em breve')">
+        </figure>
+        <figure class="ambient-tile img-fallback card-hover-lift tilt-soft" data-stagger="1">
+          <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/ristoranti/detalhe/ristoranti-detalhe-09.webp" alt="Detalhe de mise en place com talheres e guardanapo de linho sobre mesa de madeira" loading="lazy" width="1200" height="800" onerror="window.__imgFallback(this,'imagem em breve')">
+        </figure>
+        <figure class="ambient-tile img-fallback card-hover-lift tilt-soft" data-stagger="2">
+          <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/ristoranti/equipe/ristoranti-equipe-07.webp" alt="Área externa do restaurante com plantas e iluminação noturna em São Paulo" loading="lazy" width="1200" height="800" onerror="window.__imgFallback(this,'imagem em breve')">
+        </figure>
+        <figure class="ambient-tile img-fallback card-hover-lift tilt-soft" data-stagger="3">
+          <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/ristoranti/ambiente/ristoranti-ambiente-01.webp" alt="Balcão do bar com garrafas de vinho selecionadas e copos de cristal" loading="lazy" width="1200" height="800" onerror="window.__imgFallback(this,'imagem em breve')">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- 6. CHEF / FILOSOFIA — statico (respiro) -->
+  <!-- ============================================ -->
+  <section class="chef" id="chef">
+    <div class="container chef-grid">
+      <figure class="chef-image img-fallback fade-up">
+        <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/ristoranti/equipe/ristoranti-equipe-03.webp" alt="Chef Beatriz Marques" loading="lazy" width="900" height="1200" onerror="window.__imgFallback(this,'imagem em breve')">
+      </figure>
+      <div class="chef-text fade-up">
+        <h2 class="section-title">Chef Beatriz Marques</h2>
+        <p class="chef-bio">Formada pelo Institut Paul Bocuse, Beatriz voltou a São Paulo com uma certeza: cozinhar com o que a terra oferece naquele momento. Desde 2018, coordena a cozinha do Tavola Urbana e mantém relação direta com pequenos produtores locais.</p>
+        <p class="chef-philosophy">Acreditamos que o melhor prato começa na escolha do ingrediente. Por isso nosso cardápio muda com a estação e nossa massa é feita à mão todos os dias.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- 7. HORARIO + ENDERECO + MAPA — statico (respiro) -->
+  <!-- ============================================ -->
+  <section class="info" id="contato">
+    <div class="container info-grid">
+
+      <div class="info-block fade-up">
+        <div class="info-icon-wrap" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 256 256" fill="none" stroke="currentColor" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="128" cy="128" r="96"/>
+            <polyline points="128 72 128 128 184 128"/>
+          </svg>
+        </div>
+        <h3 class="info-title">Horario de funcionamento</h3>
+        <ul class="hours-list">
+          <li>
+            <span class="hours-day">Terça a Quinta</span>
+            <span class="hours-time">19:00 - 23:00</span>
+          </li>
+          <li>
+            <span class="hours-day">Sexta e Sábado</span>
+            <span class="hours-time">12:00 - 15:00, 19:00 - 00:00</span>
+          </li>
+          <li>
+            <span class="hours-day">Domingo</span>
+            <span class="hours-time">12:00 - 16:00</span>
+          </li>
+          <li>
+            <span class="hours-day">Segunda</span>
+            <span class="hours-time">Fechado</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="info-block fade-up">
+        <div class="info-icon-wrap" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 256 256" fill="none" stroke="currentColor" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M128,16a88,88,0,0,0-88,88c0,75.3,80,131.5,83.4,133.86a8,8,0,0,0,9.2,0C136,235.5,216,179.3,216,104A88.1,88.1,0,0,0,128,16Z"/>
+            <circle cx="128" cy="104" r="32"/>
+          </svg>
+        </div>
+        <h3 class="info-title">Endereco</h3>
+        <address class="info-address">
+          <span class="address-street"></span>
+          <span class="address-city">05433-010 — SP — São Paulo</span>
+        </address>
+      </div>
+
+      <div class="info-block fade-up">
+        <div class="info-icon-wrap" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 256 256" fill="none" stroke="currentColor" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M159.4,40A80.1,80.1,0,0,1,216,96.6"/>
+            <path d="M151.1,70.9a48,48,0,0,1,34,34"/>
+            <path d="M156.4,151.6a23.6,23.6,0,0,0-32.6.6h0a23.6,23.6,0,0,1-32.6.6L56.5,118a23.6,23.6,0,0,1,.6-32.6h0a23.6,23.6,0,0,0,.6-32.6L41.4,33.4a16,16,0,0,0-23,.3C-3.8,57.6-1.8,99.6,42,143.4s85.8,45.8,109.7,23.5a16,16,0,0,0,.3-23Z"/>
+          </svg>
+        </div>
+        <h3 class="info-title">Contato</h3>
+        <p class="info-line">
+          <a href="tel:+" class="info-link">+55 (11) 98765-4321</a>
+        </p>
+        <p class="info-line">
+          <a href="mailto:contato@tavolaurbana.com.br" class="info-link">contato@tavolaurbana.com.br</a>
+        </p>
+        <p class="info-line">
+          <a href="https://instagram.com/tavolaurbana" target="_blank" rel="noopener" class="info-link">@tavolaurbana</a>
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- 8. CTA FINALE — banda accent -->
+  <!-- ============================================ -->
+  <section class="cta-band">
+    <div class="container cta-band-inner">
+      <h2 class="cta-band-title reveal-wrapper" id="reveal-cta"><span class="reveal-line"><span class="reveal-text">Reserve sua mesa no TEST_Tavola Urbana</span></span></h2>
+      <a href="https://wa.me/?text=Olá! Gostaria de reservar uma mesa no Tavola Urbana." class="cta-primary cta-primary--light fade-up fade-up-delay-1">
+        Reserve sua mesa
+      </a>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- 9. FOOTER -->
+  <!-- ============================================ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="brand-name footer-brand-name">TEST_Tavola Urbana</span>
+        <p class="footer-tag">Cozinha de estação, no coração de São Paulo.</p>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-title">Endereco</h4>
+        <p><br>05433-010 — SP — São Paulo</p>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-title">Contato</h4>
+        <p><a href="tel:+">+55 (11) 98765-4321</a></p>
+        <p><a href="mailto:contato@tavolaurbana.com.br">contato@tavolaurbana.com.br</a></p>
+        <p><a href="https://instagram.com/tavolaurbana" target="_blank" rel="noopener">@tavolaurbana</a></p>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-title">Horario</h4>
+        <p>Terça a Quinta · 19:00 - 23:00</p>
+        <p>Sexta e Sábado · 12:00 - 15:00, 19:00 - 00:00</p>
+        <p>Domingo · 12:00 - 16:00</p>
+        <p>Segunda · Fechado</p>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <span>&copy; <span id="year">2026</span> TEST_Tavola Urbana. Todos os direitos reservados.</span>
+      <span class="footer-cnpj">São Paulo, Brasil</span>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
